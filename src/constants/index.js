@@ -22,6 +22,9 @@ import {
     carrent,
     jobit,
     tripguide,
+    cossim,
+    weatherApp,
+    countryGuide,
     threejs,
 } from "../assets";
 
@@ -88,30 +91,30 @@ const technologies = [
         name: "Tailwind CSS",
         icon: tailwind,
     },
-    {
-        name: "Node JS",
-        icon: nodejs,
-    },
-    {
-        name: "MongoDB",
-        icon: mongodb,
-    },
-    {
-        name: "Three JS",
-        icon: threejs,
-    },
+    // {
+    //     name: "Node JS",
+    //     icon: nodejs,
+    // },
+    // {
+    //     name: "MongoDB",
+    //     icon: mongodb,
+    // },
+    // {
+    //     name: "Three JS",
+    //     icon: threejs,
+    // },
     {
         name: "git",
         icon: git,
     },
-    {
-        name: "figma",
-        icon: figma,
-    },
-    {
-        name: "docker",
-        icon: docker,
-    },
+    // {
+    //     name: "figma",
+    //     icon: figma,
+    // },
+    // {
+    //     name: "docker",
+    //     icon: docker,
+    // },
 ];
 
 const experiences = [
@@ -198,58 +201,37 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Cossim Limited",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Cossim Limited is a Last Mile Logistics Company, incorporated in 2017 under the companies act of 2015. Over time, we have managed to steadily grow to become the preferred last mile logistics company.",
         tags: [
             {
-                name: "react",
+                name: "html",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "css",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "javaScript",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: cossim,
+        source_code_link: "https://kilundi.github.io/COSSIM-WEBSITE/",
     },
     {
-        name: "Job IT",
+        name: "WeatherApp",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "This project is designed to provide a simple and user-friendly way to access weather information for various cities. It uses a weather API to fetch real-time data, making it a useful tool for checking weather conditions before planning trips or outdoor activities.",
         tags: [
             {
-                name: "react",
+                name: "javaScript",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
+                name: "html",
                 color: "green-text-gradient",
             },
             {
@@ -257,8 +239,29 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: weatherApp,
+        source_code_link: "https://github.com/kilundi/weatherAPI?tab=readme-ov-file",
+    },
+    {
+        name: "CountryGuide",
+        description:
+            "Welcome to Country Guide, a website that provides geographical, demographic, cultural, economic, and time-related information about various countries and regions around the world. This website uses an API to fetch and display the information for each selected country.",
+        tags: [
+            {
+                name: "css",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "html",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: countryGuide,
+        source_code_link: "https://github.com/kilundi/countriesAPI",
     },
 ];
 

@@ -29,6 +29,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import cossim from "./cossim.png";
+import weatherApp from "./weatherApp.png";
+import countryGuide from "./countryGuide.png";
 
 export {
   logo,
@@ -57,6 +60,9 @@ export {
   starbucks,
   tesla,
   carrent,
+  cossim,
+  weatherApp,
+  countryGuide,
   jobit,
   tripguide,
 };
